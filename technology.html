@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Space tourism website</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="page page-tab page-technology">
+  <header class="header">
+    <div class="logo-holder">
+      <a href="/"><img src="./images/shared/logo.svg" alt="Space Tourism"></a>
+    </div>
+    <div class="header-menu">
+      <ul class="header-menu__items">
+        <li class="header-menu__item"><a href="./index.html">Home</a></li>
+        <li class="header-menu__item"><a href="./destination.html">Destination</a></li>
+        <li class="header-menu__item"><a href="./crew.html">Crew</a></li>
+        <li class="header-menu__item active"><a href="./technology.html">Technology</a></li>
+      </ul>
+    </div>
+    <button class="hamburger">
+      <span></span>
+    </button>
+  </header>
+  <main class="main">
+    <div class="title">
+      <div class="container">
+        <h5><span>03</span> SPACE LAUNCH 101</h5>
+      </div>
+    </div>
+    <div class="tab technology">
+      <div class="container">
+        <div class="tab-content">
+          <div class="tab-controls">
+            <a href="#launch" class="tab-controls__item active">1</a>
+            <a href="#spaceport" class="tab-controls__item">2</a>
+            <a href="#capsule" class="tab-controls__item">3</a>
+          </div>
+          <div class="tab-content__items">
+            <div class="tab-content__item active" tab-anchor="launch">
+              <p class="subheading3">THE TERMINOLOGY…</p>
+              <h3>LAUNCH VEHICLE</h3>
+              <p>A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!</p>
+            </div>
+            <div class="tab-content__item" tab-anchor="spaceport">
+              <p class="subheading3">THE TERMINOLOGY…</p>
+              <h3>SPACEPORT</h3>
+              <p>A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, by analogy to the seaport for ships or airport for aircraft. Based in the famous Cape Canaveral, our spaceport is ideally situated to take advantage of the Earth’s rotation for launch.</p>
+            </div>
+            <div class="tab-content__item" tab-anchor="capsule">
+              <p class="subheading3">THE TERMINOLOGY…</p>
+              <h3>SPACE CAPSULE</h3>
+              <p>A space capsule is an often-crewed spacecraft that uses a blunt-body reentry capsule to reenter the Earth's atmosphere without wings. Our capsule is where you'll spend your time during the flight. It includes a space gym, cinema, and plenty of other activities to keep you entertained.</p>
+            </div>
+          </div>
+        </div>
+        <div class="tab-images">
+          <div class="tab-images__item active" tab-anchor="launch">
+            <img class="d-lg-only" src="./images/technology/image-launch-vehicle-portrait.jpg" alt="Launch">
+            <img src="./images/technology/image-launch-vehicle-landscape.jpg" alt="Launch">
+          </div>
+          <div class="tab-images__item" tab-anchor="spaceport">
+            <img class="d-lg-only" src="./images/technology/image-spaceport-portrait.jpg" alt="Spaceport">
+            <img src="./images/technology/image-spaceport-landscape.jpg" alt="Spaceport">
+          </div>
+          <div class="tab-images__item" tab-anchor="capsule">
+            <img class="d-lg-only" src="./images/technology/image-space-capsule-portrait.jpg" alt="Capsule">
+            <img src="./images/technology/image-space-capsule-landscape.jpg" alt="Capsule">
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="./js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Space tourism website</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="page page-tab page-destination">
+  <header class="header">
+    <div class="logo-holder">
+      <a href="/"><img src="./images/shared/logo.svg" alt="Space Tourism"></a>
+    </div>
+    <div class="header-menu">
+      <ul class="header-menu__items">
+        <li class="header-menu__item"><a href="./index.html">Home</a></li>
+        <li class="header-menu__item active"><a href="./destination.html">Destination</a></li>
+        <li class="header-menu__item"><a href="./crew.html">Crew</a></li>
+        <li class="header-menu__item"><a href="./technology.html">Technology</a></li>
+      </ul>
+    </div>
+    <button class="hamburger">
+      <span></span>
+    </button>
+  </header>
+  <main class="main">
+    <div class="title">
+      <div class="container">
+        <h5><span>01</span>Pick your destination</h5>
+      </div>
+    </div>
+    <div class="tab destination">
+      <div class="container">
+        <div class="tab-images">
+          <div class="tab-images__item active" tab-anchor="moon">
+            <img src="./images/destination/image-moon.webp" alt="Moon">
+          </div>
+          <div class="tab-images__item" tab-anchor="mars">
+            <img src="./images/destination/image-mars.webp" alt="Mars">
+          </div>
+          <div class="tab-images__item" tab-anchor="europa">
+            <img src="./images/destination/image-europa.webp" alt="Europa">
+          </div>
+          <div class="tab-images__item" tab-anchor="titan">
+            <img src="./images/destination/image-titan.webp" alt="Titan">
+          </div>
+        </div>
+        <div class="tab-content">
+          <div class="tab-controls">
+            <a href="#moon" class="tab-controls__item active">Moon</a>
+            <a href="#mars" class="tab-controls__item">Mars</a>
+            <a href="#europa" class="tab-controls__item">Europa</a>
+            <a href="#titan" class="tab-controls__item">Titan</a>
+          </div>
+          <div class="tab-content__items">
+            <div class="tab-content__item active" tab-anchor="moon">
+              <h2>Moon</h2>
+              <p>See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.</p>
+              <div class="stats">
+                <div class="distance">
+                  <p class="subheading2">AVG. DISTANCE</p>
+                  <p class="subheading1">384,400 km</p>
+                </div>
+                <div class="time">
+                  <p class="subheading2">Est. travel time</p>
+                  <p class="subheading1">3 days</p>
+                </div>
+              </div>
+            </div>
+            <div class="tab-content__item" tab-anchor="mars">
+              <h2>MARS</h2>
+              <p>Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, the tallest planetary mountain in our solar system. It’s two and a half times the size of Everest!</p>
+              <div class="stats">
+                <div class="distance">
+                  <p class="subheading2">AVG. DISTANCE</p>
+                  <p class="subheading1">225 MIL. km</p>
+                </div>
+                <div class="time">
+                  <p class="subheading2">Est. travel time</p>
+                  <p class="subheading1">9 months</p>
+                </div>
+              </div>
+            </div>
+            <div class="tab-content__item" tab-anchor="europa" >
+              <h2>EUROPA</h2>
+              <p>The smallest of the four Galilean moons orbiting Jupiter, Europa is a winter lover’s dream. With an icy surface, it’s perfect for a bit of ice skating, curling, hockey, or simple relaxation in your snug wintery cabin.</p>
+              <div class="stats">
+                <div class="distance">
+                  <p class="subheading2">AVG. DISTANCE</p>
+                  <p class="subheading1">628 MIL. km</p>
+                </div>
+                <div class="time">
+                  <p class="subheading2">Est. travel time</p>
+                  <p class="subheading1">3 years</p>
+                </div>
+              </div>
+            </div>
+            <div class="tab-content__item" tab-anchor="titan">
+              <h2>TITAN</h2>
+              <p>The only moon known to have a dense atmosphere other than Earth, Titan is a home away from home (just a few hundred degrees colder!). As a bonus, you get striking views of the Rings of Saturn.</p>
+              <div class="stats">
+                <div class="distance">
+                  <p class="subheading2">AVG. DISTANCE</p>
+                  <p class="subheading1">1.6 BIL. km</p>
+                </div>
+                <div class="time">
+                  <p class="subheading2">Est. travel time</p>
+                  <p class="subheading1">7 years</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="./js/script.js"></script>
+</body>
+</html>
